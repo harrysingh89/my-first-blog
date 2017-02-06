@@ -1,0 +1,6 @@
+def post_list(request):
+    u = []
+    u = User.objects.all()
+    for v in range(0,len(User.objects.all())):
+        posts = Post.objects.filter(author = u[v]).order_by('published_date')
+        return render(request, 'blog/post_list.html', {'posts':posts})
