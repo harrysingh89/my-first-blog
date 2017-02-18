@@ -1,7 +1,7 @@
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 10px 20px 10px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -34,7 +34,16 @@ h1, h2, h3, h4 {
     color: #ffffff;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    margin-right: 5px;
+	margin-top: 35px;
+}
+
+.login-f, .login-f:hover, .login-f:visited {
+    color: #ffffff;
+	position: absolute;
+    top: 0px;
+	right: 20px;
+    font-size: 12pt;
 }
 
 .post {
